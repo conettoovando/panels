@@ -1,3 +1,4 @@
+# Cuantos paneles caben
 def check_with_orientation(pw, ph, rw, rh):
     # Calculo de cuantos paneles caben por horizontalmente por fila y la cantidad de filas completas de panel
     full_rows = rw // pw 
@@ -34,3 +35,7 @@ print(maxPanels("4x4", "3x8")) # 0
 print(maxPanels("4x4", "4x8")) # 2
 print(maxPanels("3x2", "5x8")) # 6
 
+print("Ejemplos de Ruuf")
+print(maxPanels("1x2", "2x4"))
+print(maxPanels("1x2", "3x5"))
+print(maxPanels("2x2", "1x10"))
